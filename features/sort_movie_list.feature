@@ -24,6 +24,7 @@ Background: movies have been added to database
 Scenario: sort movies alphabetically
   When I sort by Movie Title
   Then I will see Aladdin before Amelie
+  And  I will see 2001: A Space Odyssey before Aladdin
   And  I will see Chicken Run before Chocolat
 
 Scenario: sort movies in increasing order of release date
@@ -31,4 +32,4 @@ Scenario: sort movies in increasing order of release date
   Then I will see Aladdin before Amelie
   And  I will see Chicken Run before Chocolat
   And  I will see Raiders of the Lost Ark before Chocolat
-
+  And  I will see Chicken Run before Amelie
