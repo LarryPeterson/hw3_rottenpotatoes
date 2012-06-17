@@ -14,6 +14,8 @@ group :development, :test do
   gem 'database_cleaner'
   gem 'capybara'
   gem 'launchy'
+  gem 'ffi'
+#  gem 'json', '1.6.5'
 end
 group :production do
 #  gem 'pg'
